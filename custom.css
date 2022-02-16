@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navs{
+    background-color:#FDFEFF;
+    height: 4rem;
+    /* overflow: hidden;
+    position: fixed; */
+    /* top: 0; Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.brand{
+    float: left;
+    width: 15%;
+    padding: 0.5rem;
+    height: 100%;
+}
+
+#brant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.left{
+    float: left;
+    width: 55%;
+    text-align: center;
+    padding: 1rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+}
+.left ul {
+    display: flex;
+    margin-right: auto;
+    padding: 0.5rem;    
+}
+.right{
+    float: right;
+    text-align: center;
+    padding: 1rem;
+    padding-right: 3rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+
+}
+
+.right ul {
+    display: flex;
+    margin-left: auto;
+    padding: 0.5rem;    
+}
+
+li, a, button {
+    text-decoration: none;
+}
+a{
+    color: #7732e1;
+}
+
+ul{
+    list-style: none;
+}
+.right li{
+    margin:  10px;
+    color: #7732e1;
+}
+.left a{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.left a:hover{
+    border-bottom: 2px solid #7732e1;
+}
+
+.show {
+    height: 1000px;
+    background: url(./img/wall.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.show h1{
+    padding-top: 5rem;
+}
+
+.text-white{
+    color: black;
+}
+.slate{
+    color: #7732e1;
+}
+
+
+.green{
+    color: #1ee8f5;
+}
+
+.qq{
+    width: 175px;
+    border: 1px solid #7732e1 ;
+}
+
+.ww{
+    border: 1px solid #1ee8f5;
+    width: 175px;
+}
+
+.qq:hover{
+    background-color: #7732e1;
+}
+
+.ww:hover{
+    background-color: #1ee8f5;
+}
+.show-wrapper{
+    padding-top: 3rem;
+}
+
+.three-items{
+    color: #7732e1;
+}
+
+
+.buttons{
+    padding-top: 10rem;
+}
+
+.lm{
+    color:#7732e1;
+
+}
+
+.mybtn{
+    padding-bottom: 5rem;
+}
+
+img{
+    object-fit: contain;
+    height: 312px;
+    width: 416px;
+    border-radius: 50%;
+}
+
+
+.fifth form{
+    width: 500px;
+    margin: auto;
+}
+.fifth input, textarea {
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.fifth label {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 14px;
+}
+
+.fifth textarea{
+    height: 150px;
+}
+
+#special {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 900;
+    color: #1ee8f5;
+
+}
+
+.footer{
+    background-color: slategray;
+    height: 70px;
+}
